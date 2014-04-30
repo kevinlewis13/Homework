@@ -1,0 +1,63 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*setting up my defaults: font-size, font-family, color, etc. etc.*/
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  color: gray;
+  background-color: black;
+  margin: 1em 25%;
+  line-height: normal;
+}
+
+.title, .bottom{
+  background-color: gray;
+  color: black;
+  padding-left: .25rem;
+}
+
+.main{
+  font-size: 4em;
+}
+
+.article {
+  font-size: 2.5em;
+  background-color: red;
+  color: black;
+  margin: .25em 0;
+  position: relative;
+}
+
+.chapter {
+  font-size: .5em;
+  font-family: Courier, serif;
+  color: black;
+  position: absolute;
+  top: .5em;
+  right: 2em;
+}
+
+.nav {
+  background-color: red;
+  color: black;
+  text-decoration: none;
+  padding-right: 1em;
+  padding-left: .25em;
+}
+
+.nav:hover {
+  color: blue;
+}
+
+img {
+  float: left;
+  padding-right: .25rem;
+  margin-bottom: .5em;
+
+}
+
+.bottom {
+  clear: both;
+}
